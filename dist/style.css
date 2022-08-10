@@ -1,0 +1,175 @@
+body {
+  
+ background-size: cover;
+ text-align: center;
+ margin: 0;
+ position: relative;
+ padding-bottom: 3em;
+ min-height: 100vh;
+}
+
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+
+  
+ 
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; 
+  text-align: center;
+  
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  
+
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+h1 {
+ font-family: 'Mouse Memoirs', sans-serif;
+ font-size: 120px;
+ color: blue;
+ text-shadow: 0px 0px 20px orange;
+ text-align: center;
+}
+
+h2 {
+font-family: Sablon;
+font-size: 22px;  
+color: black;
+text-shadow: 0px 0px 10px #d4560d;
+margin-right: 20px;
+}
+
+h3 {
+font-family: Sablon;
+font-size: 25px;
+text-align: left;
+border: 3px;
+}     
+
+#logo {
+width: 60px;
+border-radius: 50% 50% 50% 50%;
+border-style: solid;
+border-color: yellow;
+margin-bottom: 15px;
+}
+
+#hero {
+ background-image: url("https://media.giphy.com/media/sSCmoJMXIxTgiUgRRV/giphy.gif");
+ background-size: cover;
+ padding: 40px 40px 90px;
+
+}
+
+figure {
+padding: 0;
+margin: 0 auto;
+}
+
+#carusel {
+  background-color: #9ba832;
+  display: center;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items:center;
+  padding: 40px 40px;
+}
+
+#p_btn, #n_btn {
+  
+  background-color:#0a0a23; 
+  color: #fff;
+  border:0;
+  border-radius:25px;
+  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+  padding: 15px;
+  font-size: 15px;
+  margin: 10px;
+  
+}
+
+
+#info {
+background-color: #04AA6D;
+display:flex;
+padding: 50px 50px;
+}
+
+#gif2 {
+border-radius: 50%;
+border-style: solid;
+border-color: black;
+}
+
+#container {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 30px;
+background-color: #919484;
+display:flex;
+align-items:center;
+padding: 50px 50px;
+}
+
+#comment-box {
+  border: 10px;
+  border-radius: 15px;
+  text-align:center;
+  font-size: 20px;
+}
+
+#post {    
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-radius: 40px;
+  padding: 8px 12px;
+  font-size: 20px;
+}
+
+#post:hover {
+  background-color: deeppink;
+}
+
+ul {
+font-size: 15px;
+}
+
+#footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightcoral;
+  color: rgb(90, 12, 12);
+  text-align: center;
+  padding: 1em 0;
+  font-size: 18px;
+}
